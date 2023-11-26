@@ -55,7 +55,7 @@ The enum property defines an allowed set of values for the field. Any value not 
 4. Run "basics/mongoose-demo.js" and see what you get? make the changes in 2 and 3 and run again.
 
 5. Define a function insertMany(entries) in the above script, which takes a list of objects {eggs: N, drink: ‘some drink’} and inserts each entry in entries in the MongoDB collection my_db.
-``
+```
 async function insertMany(entries) {
   try {  
     const insertedEntries = [];
@@ -68,7 +68,7 @@ async function insertMany(entries) {
     console.error('Error inserting entries:', error);
   }
 
-  ``
+  ```
 
 # The Library App
 
